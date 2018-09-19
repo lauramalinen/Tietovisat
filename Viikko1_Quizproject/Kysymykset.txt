@@ -1,0 +1,25 @@
+﻿Onko maapallo pyöreä? *K
+Onko eka viikko ollut rankka? *K
+Tuleeko viikonloppu tarpeeseen? *K
+Onko ohjelmointi kivaa? *K
+Ymmärtääkö tietokoneen suoritin sorsakoodia? *E
+Ovatko datatiedostot yleensä siirtokelpoisia? *K
+Käyttääkö kääntäjä nimiavaruudesta koko nimeä? *K
+Voiko assemblyssa olla useita nimiavaruuksia? *K
+Onko kenttä riittävä kaikissa tilanteissa ja ominaisuus vain hifistelyä useimmissa tapauksissa? *E
+Saako luokan konstruktorin nimen valita vapaasti? *E
+Saako tiedostossa olla useampi kuin yksi luokka? *K
+Voiko structilla olla konstruktori? *K
+Onko maapallo pannukakku? *E
+Toimiiko tämä pojekti ikinä? *K
+Onko tämä projekti optimoitu? *E
+Lähdetäänkö kohta kotiin? *K
+Kiitetäänkö kaikkia viikosta? *K
+Onko Visual Studiossa Snippet? *K
+Terminate? *K
+Tuleeko sinusta isona IT-konsultti? *K
+Boolean, int ja string ovat tietotyyppejä C#-kielessä? *E
+Looppi do/while ei välttämättä lue silmukan sisältöä kertaalleen kokonaan? *E
+Onko totta, että luokka ja konstruktori voivat olla eri nimisiä C#:ssa? *E
+Voiko luokan sisällä olla namespace? *E
+Using ei vaadi StreamWriter:n sulkemista CLose-käskyllä? *K
