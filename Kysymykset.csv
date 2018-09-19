@@ -1,0 +1,17 @@
+1;Protected luokan jasen on saatavilla luokan sisalla tai luokan perineen luokan ulkopuolella.";false
+2;Metodi palauttaa arvon aina return-komennolla.;false
+4;Attribuutit ja metodit eivat ole luokan jasenia.;false
+5;Saantimaareet rajoittavat luokan jasenten nakyvyytta.;true
+6;Vain staattiset instanssit paasevat kasiksi luokan staattisiin jaseniin.;true
+7;Struct-tietorakenteelle voi asettaa oletusmuodostimen.;false
+8;Kentan arvo palautetaan set-metodilla.;false
+9;Nimiavaruus maaritellaan namespace-maareella.;true
+10;FileInfo-luokan kaytto on nopeampaa kuin File-luokan.;true
+11;FileStream suljetaan kaskylla .Flush().;false
+12;Poikkeuskasittelyn taytyy aina sisaltaa catch-lohko.;false
+13;.Equals toimii samoin kuin ==.;true
+14;Muodostin voi saada parametrina olioita.;true
+15;Sealed-luokka suojaa luokkia ja metodeita peritytymiselta.;true
+16;Vakiokentta voidaan muuttaa myohemmin.;false
+17;Luokka voi periä vain yhden liittymän;false
+18;Luokka voi periä vain yhden luokan;true
