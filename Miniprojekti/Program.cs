@@ -1,8 +1,8 @@
 ﻿using System;
-using System.IO;
-using System.Collections;
-using System.Collections.Generic;
 using Viikko1_Quizproject;
+using static System.Net.Mime.MediaTypeNames;
+using System.Windows;
+using System.Diagnostics;
 
 namespace Miniprojekti
 {
@@ -33,9 +33,11 @@ namespace Miniprojekti
 
                 Kysymysmoottori.LauranPeli();
             }
-                
-            
-            else
+            else if (luku ==3)
+            {
+                Process.Start(@"C:\work\AcademyOpinnot\VIIKKO1\MiniProjektiViikko1\QuizSovellus\bin\Debug\QuizSovellus.exe");
+            }
+              else
             Console.WriteLine("Väärä valinta! :((");
 
                 Console.ReadKey();
