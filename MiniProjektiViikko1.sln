@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuizSovellus", "QuizSovellu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miniprojekti", "Miniprojekti\Miniprojekti.csproj", "{8AC2B9F2-853E-4A92-A559-A1454795A123}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viikko1_Quizproject", "Viikko1_Quizproject\Viikko1_Quizproject.csproj", "{389BEC84-9BBF-43AA-B2CC-FED168A6FCFC}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{8AC2B9F2-853E-4A92-A559-A1454795A123}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AC2B9F2-853E-4A92-A559-A1454795A123}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AC2B9F2-853E-4A92-A559-A1454795A123}.Release|Any CPU.Build.0 = Release|Any CPU
-		{389BEC84-9BBF-43AA-B2CC-FED168A6FCFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{389BEC84-9BBF-43AA-B2CC-FED168A6FCFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{389BEC84-9BBF-43AA-B2CC-FED168A6FCFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{389BEC84-9BBF-43AA-B2CC-FED168A6FCFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

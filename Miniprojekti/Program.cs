@@ -16,31 +16,38 @@ namespace Miniprojekti
 
         public static void Main(string[] args)
         {
-            Console.WriteLine("Mikä peli valitaan? (1-3)");
-            int luku = int.Parse(Console.ReadLine());
 
-            if (luku == 1)
+
+            while (true)
             {
-                Moottori Peli2 = new Moottori();
-                Peli2.KysymysMoottori();
-            }
+                Console.WriteLine("Mikä peli valitaan? (1-3), jos haluat lopettaa syötä 4.");
+                int luku = int.Parse(Console.ReadLine());
 
-            else if(luku == 2)
-            {
-                Console.WriteLine("Tervetuloa Tietovisaan!");
-                Console.WriteLine("Vastaa annettuihin kysymyksiin K tai E");
-                Console.WriteLine("***********************");
+                if (luku == 1)
+                {
+                    Moottori Peli2 = new Moottori();
+                    Peli2.KysymysMoottori();
+                }
 
-                Kysymysmoottori.LauranPeli();
-            }
-            else if (luku ==3)
-            {
-                Process.Start(@"C:\work\AcademyOpinnot\VIIKKO1\MiniProjektiViikko1\QuizSovellus\bin\Debug\QuizSovellus.exe");
-            }
-              else
-            Console.WriteLine("Väärä valinta! :((");
+                else if (luku == 2)
+                {
+                    Console.WriteLine("Tervetuloa Tietovisaan!");
+                    Console.WriteLine("Vastaa annettuihin kysymyksiin K tai E");
+                    Console.WriteLine("***********************");
 
-                Console.ReadKey();
+                    Kysymysmoottori.LauranPeli();
+                }
+                else if (luku == 3)
+                {
+                    Process.Start(@"C:\work\AcademyOpinnot\VIIKKO1\MiniProjektiViikko1\QuizSovellus\bin\Debug\QuizSovellus.exe");
+                }
+                else if(luku == 4)
+                {
+                    break;
+                }else
+                    Console.WriteLine("Väärä valinta! Syötä kelvollinen numero!");
+            }
+            Console.ReadKey();
         }
 
        
