@@ -18,7 +18,7 @@ namespace Viikko1_Quizproject
 
         public string KysyKysymys()
         {
-            //string[] kysymykset = File.ReadAllLines(@"C:\Users\ainon\OneDrive\Desktop\C# ohjelmointi\Viikko_1\TietovisaC\TietovisaC\Kysymykset.txt");
+           
             string[] kysymykset = File.ReadAllLines(@"C:\Users\laura\source\repos\Viikko1_Quizproject\Viikko1_Quizproject\Kysymykset.txt");
 
 
@@ -31,12 +31,6 @@ namespace Viikko1_Quizproject
                 kysymykset[i] = kysymykset[k];
                 kysymykset[k] = temp;
             }
-
-            //foreach (var kysymys in kysymykset)
-            //{
-            //    Console.WriteLine(kysymys);
-            //}
-
 
             return kysymykset[0];
 
