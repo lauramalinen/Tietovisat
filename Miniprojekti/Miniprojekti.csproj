@@ -5,4 +5,12 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Kysymykset.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Kysymykset.txt" />
+  </ItemGroup>
+
 </Project>

@@ -1,12 +1,25 @@
-Aakkosten ensimmainen kirjain?;1;1: A*2: B*3: C;
-Aakkosten toinen kirjain?;2;1: A*2: B*3: C;
-1+1 = ?;2;1: 1*2: 2*3: 3;
-const-maaritelmaa voidaan kayttaa vain...;2;1: luokkaan*2: kenttaan*3: ominaisuuteen;
-Luokan instanssi on sama kuin?;2;1: Private*2: Olio*3: Luokka;
-1 = ?;1;1: 1*2: 2*3: 3;
-Ominaisuuden maaritelma?;3;1: Kentta*2: Olio*3: Luokka voi sisaltaa propertyja (ominaisuuksia) jotka nayttavat luokan rajapinnassa kentilta, mutta ovat toteutettu koodina;
-Konstruktori on sama kuin?;2;1: Olio*2: Muodostin*3: Luokka;
-Mita casingia kaytetaan Namespace:issa?;3;1: LCC*2: UCC*3: Pascal casing;
-Tiedostoja kasiteltaessa tarvitaan using System.(mika nimiavaruus)?;3;1: Collections*2: Generics*3: IO;
-Luokan oletusnakyvyys?;1;1: Private*2: Public*3: Internal;
-Mika seuraavista ei ole nakyvyysalue?;1;1: Sealed public*2: Internal*3: Protected;
+﻿Onko maapallo pyöreä? *K
+Onko eka viikko ollut rankka? *K
+Tuleeko viikonloppu tarpeeseen? *K
+Onko ohjelmointi kivaa? *K
+Ymmärtääkö tietokoneen suoritin sorsakoodia? *E
+Ovatko datatiedostot yleensä siirtokelpoisia? *K
+Käyttääkö kääntäjä nimiavaruudesta koko nimeä? *K
+Voiko assemblyssa olla useita nimiavaruuksia? *K
+Onko kenttä riittävä kaikissa tilanteissa ja ominaisuus vain hifistelyä useimmissa tapauksissa? *E
+Saako luokan konstruktorin nimen valita vapaasti? *E
+Saako tiedostossa olla useampi kuin yksi luokka? *K
+Voiko structilla olla konstruktori? *K
+Onko maapallo pannukakku? *E
+Toimiiko tämä pojekti ikinä? *K
+Onko tämä projekti optimoitu? *E
+Lähdetäänkö kohta kotiin? *K
+Kiitetäänkö kaikkia viikosta? *K
+Onko Visual Studiossa Snippet? *K
+Terminate? *K
+Tuleeko sinusta isona IT-konsultti? *K
+Boolean, int ja string ovat tietotyyppejä C#-kielessä? *E
+Looppi do/while ei välttämättä lue silmukan sisältöä kertaalleen kokonaan? *E
+Onko totta, että luokka ja konstruktori voivat olla eri nimisiä C#:ssa? *E
+Voiko luokan sisällä olla namespace? *E
+Using ei vaadi StreamWriter:n sulkemista CLose-käskyllä? *K
